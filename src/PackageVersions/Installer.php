@@ -79,6 +79,16 @@ PHP;
         // Nothing to do here, as all features are provided through event listeners
     }
 
+    public function deactivate(Composer $composer, IOInterface $io) : void
+    {
+        // Nothing to do here, as all features are provided through event listeners
+    }
+
+    public function uninstall(Composer $composer, IOInterface $io) : void
+    {
+        // Nothing to do here, as all features are provided through event listeners
+    }
+
     /**
      * {@inheritDoc}
      */
